@@ -14,10 +14,10 @@ pip install nbdev_hello_world
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
+Blah blah blah
 
 ``` python
-1+1
+mySquared(5)
 ```
 
-    2
+    25
