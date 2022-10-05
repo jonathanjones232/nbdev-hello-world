@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://jonathanjones232.github.io',
                 'git_url': 'https://github.com/jonathanjones232/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')},
+            'nbdev_hello_world.toy': { 'nbdev_hello_world.toy.foo': ('main.html#foo', 'nbdev_hello_world/toy.py'),
+                                       'nbdev_hello_world.toy.mySquared': ('main.html#mysquared', 'nbdev_hello_world/toy.py')}}}
